@@ -1,0 +1,10 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Pedhot-Dev/NepotismFree-DI-Autowire
+build-by-default: true
+branches:
+- master
+projects:
+  NepotismFree-DI-Autowire:
+    path: ""
+    model: virion
+    type: library
+...
