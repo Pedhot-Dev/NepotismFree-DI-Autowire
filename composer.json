@@ -1,5 +1,5 @@
 {
-    "name": "pedhot-dev/nepotismfree-autowire",
+    "name": "pedhot-dev/nepotismfree-di-autowire",
     "description": "An optional Autowire / Resolver layer for NepotismFree-DI. Strict DI stays strict; this resolver sits on top.",
     "type": "library",
     "license": "MIT",
@@ -10,8 +10,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/Pedhot-Dev/nepotismfree-autowire",
-        "issues": "https://github.com/Pedhot-Dev/nepotismfree-autowire/issues"
+        "source": "https://github.com/Pedhot-Dev/NepotismFree-DI-Autowire",
+        "issues": "https://github.com/Pedhot-Dev/NepotismFree-DI-Autowire/issues"
     },
     "require": {
         "php": "^8.1",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PedhotDev\\NepotismFree\\Autowire\\": "src/Autowire/"
+            "PedhotDev\\NepotismFree\\Autowire\\": "src/PedhotDev/NepotismFree/Autowire"
         }
     },
     "autoload-dev": {
