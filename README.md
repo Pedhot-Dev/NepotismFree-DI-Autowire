@@ -13,7 +13,7 @@ It allows you to resolve concrete classes and inject dependencies automatically 
 ## Installation
 
 ```bash
-composer require pedhot-dev/nepotismfree-autowire
+composer require pedhot-dev/nepotismfree-di-autowire
 ```
 
 ## Basic Usage
